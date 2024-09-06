@@ -111,6 +111,8 @@ const Home = () => {
                           <Link href={`/product/${coin.id}`}>
                             <div className="flex items-center">
                               <Image
+                                width={42}
+                                height={42}
                                 src={coin.image}
                                 alt={coin.name}
                                 className="w-6 h-6 mr-2"
